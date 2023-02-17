@@ -48,6 +48,11 @@ export default function Navbar() {
               SHOP
             </Typography>
           </Link>
+          <Link to="/sign-in" className={classes.navLink}>
+            <Typography variant="body1" component="h6">
+              SIGN IN
+            </Typography>
+          </Link>
         </Box>
       </Box>
       <Outlet />
